@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="shortcut icon" href="img/iconoB.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/index.js"></script>
+</head>
+<body onload="audioPlay()">
+    <div class="container">
+      <div class="backgroundC">
+        <audio id="miAudio" controls autoplay>
+          <source src="aud/CANCION INVITACION.mp3" type="audio/mpeg">
+          Tu navegador no soporta la reproducción de audio.
+        </audio>
+        <div class="img one" style="background-color: white;">
+            <img src="img/1.png" alt="¡Nos casamos! Isis y Roger. 15 de Diciembre de 2023">
+          </div>
+      </div>
+          <div class="backgroundTimer">
+            <p id="timerBack">00:00:00:00</p>
+          </div>
+          <div class="timer img-onepone">
+            <img src="img/1.1.png" alt="Faltan esos Días, Horas, Minutos, Segundos">
+          </div>
+        <div class="img two">
+            <img src="img/2.png" alt="Texto en imagen: Ustedes son parte de nuestra historia y queremos compartir este momento tan especial. Los invitamos a formar parte de este evento, en el cual enlazaremos nuestros caminos para formar una nueva familia juntos.">
+        </div>
+        <div class="img three">
+            <img src="img/3.png" alt='Texto en imagen: Hace 3 años comenzó nuestra historia de amor... una aventura entre flechas y mucha adrenalina que floreció el amor y admiración entre nosotros. "Te convertiste en la luz de mi alma, el suspiro que me da vida, el sueño que no me canso de soñar; te elijo hoy y por el resto de la vida". '>
+        </div>
+        <div class="img four">
+            <img src="img/4.png" alt="Texto en imagen: Nuestros padres: J. Trinidad Fuentes Martínez y Lizbeth Genoveva Quiñonez de Fuentes, Papás de la novia; Rogelio Arreguin Ochoa y Arcelia Reyes de Arreguin, Papás del novio.">
+        </div>
+        <div class="img five">
+            <img src="img/5.png" alt="Texto en imagen: Nuestros padrinos: Ernesto Fuentes Martínez y Rosa María Verduzco de Fuentes, padrinos de la novia; Miguel Arreguin Ochoa e Imelda Aguilar de Arreguin, padrinos del novio.">
+        </div>
+        <div class="sectionTitle">
+            <h1>
+                Galería de fotos
+            </h1>
+        </div>
+        <div class="slider-container">  
+          <img src="img/gallery/1.FOTO.jpeg" alt="Imagen de pedida de mano" class="pic">
+          <img src="img/gallery/2.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+          <img src="img/gallery/3.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+          <img src="img/gallery/4.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+          <img src="img/gallery/5.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+          <img src="img/gallery/6.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+          <img src="img/gallery/7.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+          <img src="img/gallery/8.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+          <img src="img/gallery/9.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+          <img src="img/gallery/10.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+          <img src="img/gallery/11.FOTO.jpeg" alt="Imagen de los novios" class="pic">
+        </div>
+          <div class="sectionTitle">
+            <h1>
+                Vídeo de la propuesta
+            </h1>
+        </div>
+          <div class="vid one">
+            <video src="vid/VIDEO PROPUESTA.mp4" controls></video>
+          </div>          
+          <div class="img eight">
+            <img src="img/8.png" alt="Texto en imagen: Lugar de la ceremonia regliosa: Complejo Parroquial San Juan Pablo II. Colima, Col. 8:00 PM.">
+          </div>
+          <div class="img eightBtn">
+            <img src="img/8.1.png" alt="botón: ver ubicación GPS" onclick="linkGPS1()">
+          </div>          
+          <div class="img nine">
+            <img src="img/9.png" alt="Texto en imagen: Lugar de recepción: Jardín de Eventos XANAH, Colima, Col. 9:00 PM. ">
+          </div>
+          <div class="img nineBtn">
+            <img src="img/9.1.png" alt="botón: ver ubicación GPS" onclick="linkGPS2()">          
+          <div class="img ten">
+            <img src="img/10.png" alt="Texto en imagen: Código de vestimenta: Mujeres: Vestido largo formal; Hombres: Traje formal; No niños.">
+          </div>          
+          <div class="img eleven">
+            <img src="img/11-1.jpeg" alt="Texto en imagen: El mejor regalo que nos puedes dar es tu presencia. Pero si deseas hacernos un obsequio añadimos como sugerencia las siguientes opciones:">
+          </div>          
+          <div class="img twelve">
+            <img src="img/12-1.png" style="display: block;" alt="Texto en imagen: Mesa de regalos: Liverpool: código 51175828.">
+            <img src="img/12.1.png" style="display: block;" alt="Enlace: Ver mesa de regalos de Liverpool." onclick="linkMRL()">
+            <img src="img/12-2.png" style="display: block;" alt="Texto en imagen: La marina: código: MR-0000 1414.">
+            <img src="img/12.2.png" style="display: block;" alt="Enlace: Ver mesa de regalos de La Marina." onclick="linkMRM()">
+            <img src="img/12-3.png" style="display: block;" alt="Texto en imagen: Datos Bancarios: Bancho BBVA: Titular: Isis Alondra Fuentes Quiñonez. Número de cuenta: 154 271 7417. Número de tarjeta: 4152 3140 5014 3802. CLABE: 012 342 01542717417 9.">
+          </div>
+                   
+          <div class="img thirteen">
+            <img src="img/13-1.png" style="display: block;" alt="Texto en imagen: Confirmar asistencia al contacto de WhatsApp:">
+            <img src="img/13.1.png" style="display: block;" alt="Enlace: Contacto de WhatsApp: 312 311 96 65" onclick="linkWA()">
+            <img src="img/13-2.png" style="display: block;" alt="Texto en imagen: Por favor confirmar asistencia a la brevedad posible.">
+          </div>          
+    </div>      
+</body>
+</html>

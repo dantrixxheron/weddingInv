@@ -69,13 +69,14 @@ audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-pause-b
 .sectionTitle {
   background-color: #B3D4C4;
   padding: 20px;
+  border-radius: 80px;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
   
 .sectionTitle h1 {
-  font-family: "Cormorant Garamond";
+  font-family: "Cormorant Garamond", 'Times New Roman';
   font-size: 28px;
   color: #FFFEFE;
   text-transform: uppercase;
@@ -84,9 +85,9 @@ audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-pause-b
 .sectionTitle::after {
   content: '';
   display: block;
-  width: 50px;
+  width: 25px;
   height: 4px;
-  background-color: #073523;
+  background-color: #1e6348;
   margin: 0 auto;
 }
 .slider-container {

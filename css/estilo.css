@@ -100,20 +100,6 @@ video {
   object-fit: fill;
   position: relative;
 }
-.button {
-  display: inline-block;
-  padding: 30px 110px;
-  background-color: #B3D4C4;
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  font-size: 40px;
-  transition: background-color 0.3s ease;
-}
-.button:hover {
-  background-color: #72AF91;
-}
 .img.eight {
   position: relative;
 }
